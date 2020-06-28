@@ -10,7 +10,7 @@
 
         <body>
             <h1 style="font-family: Arial, Helvetica, sans-serif;">Christina's art</h1>
-            <a style="font-family: Arial, Helvetica, sans-serif;" href="/loading.html">Cityscape</a></p>
+            <a style="font-family: Arial, Helvetica, sans-serif;" href="/loading.php">Cityscape</a></p>
             <?php
             // This is a single line comment
             # This is also a single line comment
