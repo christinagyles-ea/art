@@ -1,1 +1,4 @@
-<?php include_once("index.html"); ?>
+<?php
+echo "Hello From Sites Folder!";
+phpinfo();
+?>

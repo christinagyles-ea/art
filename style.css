@@ -49,3 +49,125 @@ body {
         opacity: 0;
     }
 }
+
+.citysky {
+
+    background: blue;
+}
+
+.skyline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.firstbuilding {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 50vh;
+    background: blue;
+    position: relative;
+    top: 100%;
+    left: -10.5%;
+}
+
+.secondbuilding {
+    margin: 0;
+    padding: 0;
+    width: 10vw;
+    height: 50vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -50.5%;
+}
+
+.thirdbuilding {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    height: 20vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -49.5%;
+}
+
+.fourthbuilding {
+    margin: 0;
+    padding: 0;
+    width: 10vw;
+    height: 35vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -30.5%;
+}
+
+.fithbuilding {
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+    height: 25vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -20.5%;
+}
+
+
+.sixthbuilding
+{
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+    height: 10vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -15.5%;
+}
+.seventhbuilding {
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+    height: 30vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -10.5%;
+}
+
+.eighthbuilding {
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+    height: 20vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -5.5%;
+}
+
+.tenthbuilding {
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+    height: 40vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: -0.5%;
+}
+
+.eleventhbuilding {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    height: 25vh;
+    background: black;
+    position: absolute;
+    top: -100%;
+    left: 20.5%;
+}
