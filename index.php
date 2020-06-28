@@ -17,7 +17,6 @@
             echo "Hello, world!";
             ?>
             <h1><?php echo "Hello, world!"; ?></h1>
-            <?php
 <?php
 // Declaring variables
 $txt = "Hello World php variable!";
