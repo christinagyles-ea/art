@@ -25,7 +25,7 @@ define("SITE_URL", "https://christinasart.herokuapp.com/");
             # This is also art
 
 // Using constant
-echo 'Thank you for visiting - ' . SITE_URL;
+echo "<h4>This is a simple heading.</h4>" . SITE_URL;
  
 // Displaying variables value
 echo $txt;  // See you on the other side!
