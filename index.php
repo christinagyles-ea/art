@@ -14,7 +14,7 @@
 $txt = "See you on the other side!";
 $number = 101;
 // Defining constant
-define("SITE_URL", "christinasart.herokuapp.com/");
+define("SITE_URL", "https://christinasart.herokuapp.com/");
 ?>
             <h1 style="font-family: Arial, Helvetica, sans-serif;">Christina's art</h1>
             <a style="font-family: Arial, Helvetica, sans-serif;" href="/loading.php">Cityscape</a></p>
@@ -25,7 +25,7 @@ define("SITE_URL", "christinasart.herokuapp.com/");
             # This is also art
 
 // Using constant
-echo 'Thank you for visiting - ' . SITE_URL;
+echo '<a href="' . SITE_URL;">test</a>
  
 // Displaying variables value
 echo $txt;  // See you on the other side!
