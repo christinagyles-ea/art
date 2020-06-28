@@ -11,7 +11,7 @@
         <body>
         <?php
         // Declaring variables
-$txt = "Hello World php variable!";
+$txt = "See you on the other side!";
 $number = 101;
 ?>
             <h1 style="font-family: Arial, Helvetica, sans-serif;">Christina's art</h1>
@@ -23,7 +23,7 @@ $number = 101;
 
  
 // Displaying variables value
-echo $txt;  // Output: Hello World php variable!
+echo $txt;  // See you on the other side!
 echo $number; // Output: 101
 ?>
         </body>
