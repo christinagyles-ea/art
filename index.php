@@ -29,7 +29,7 @@ $my_str = 'https://christinasart.herokuapp.com/';
 echo "<h4>This is a simple heading.</h4>" . SITE_URL;
 
 
-echo "<a href="$my_str!">test</a><br>";      // Displays: Hello Worldstring!
+echo "<a href="$my_str!">test</a>";      // Displays: Hello Worldstring!
 // Displaying variables value
 echo $txt;  // See you on the other side!
 echo $number; // Output: 101
