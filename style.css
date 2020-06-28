@@ -1,172 +1,121 @@
-/** code by webdevtrick ( https://webdevtrick.com ) **/
-body {
-    background-color: whitesmoke;
-}
-.loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.loader .dots {
-    position: absolute;
-    padding: 10px;
-    border-radius: 50%;
-    background: #f05855;
-    -webkit-animation: myani 1s ease-in-out 0s infinite;
-    animation: myani 1s ease-in-out 0s infinite;
-}
-.loader .dots:nth-child(1) {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-}
-.loader .dots:nth-child(2) {
-    -webkit-animation-delay: 0.15s;
-    animation-delay: 0.15s;
-}
-.loader .dots:nth-child(3) {
-    -webkit-animation-delay: 0.30s;
-    animation-delay: 0.30s;
-}
-.loader .dots:nth-child(4) {
-    -webkit-animation-delay: 0.45s;
-    animation-delay: 0.45s;
+
+.bluecity {
+
+    background: black;
 }
 
-
-
-@keyframes myani {
-    0% {
-        -webkit-transform: translateX(-100px);
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: translateX(100px);
-        transform: translateX(100px);
-        opacity: 0;
-    }
-}
-
-.citysky {
-
-    background: blue;
-}
-
-.skyline {
+.blacksky {
     position: absolute;
     top: 50%;
     left: 50%;
 }
 
-.firstbuilding {
+.city {
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 50vh;
-    background: blue;
+    background: black;
     position: relative;
     top: 100%;
     left: -10.5%;
 }
 
-.secondbuilding {
+.skyblock_one {
     margin: 0;
     padding: 0;
     width: 10vw;
     height: 50vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -50.5%;
 }
 
-.thirdbuilding {
+.skyblock_two {
     margin: 0;
     padding: 0;
     width: 20vw;
     height: 20vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -49.5%;
 }
 
-.fourthbuilding {
+.skyblock_three {
     margin: 0;
     padding: 0;
     width: 10vw;
     height: 35vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -30.5%;
 }
 
-.fithbuilding {
+.skyblock_four {
     margin: 0;
     padding: 0;
     width: 5vw;
     height: 25vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -20.5%;
 }
 
 
-.sixthbuilding
-{
+.skyblock_five {
     margin: 0;
     padding: 0;
     width: 5vw;
     height: 10vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -15.5%;
 }
-.seventhbuilding {
+
+.skyblock_six {
     margin: 0;
     padding: 0;
     width: 5vw;
     height: 30vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -10.5%;
 }
 
-.eighthbuilding {
+.skyblock_seven {
     margin: 0;
     padding: 0;
     width: 5vw;
     height: 20vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -5.5%;
 }
 
-.tenthbuilding {
+.skyblock_eight {
     margin: 0;
     padding: 0;
     width: 5vw;
     height: 40vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: -0.5%;
 }
 
-.eleventhbuilding {
+.skyblock_nine {
     margin: 0;
     padding: 0;
     width: 20vw;
     height: 25vh;
-    background: black;
+    background: blue;
     position: absolute;
     top: -100%;
     left: 20.5%;
