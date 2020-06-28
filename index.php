@@ -17,6 +17,14 @@
             echo "Hello, world!";
             ?>
             <h1><?php echo "Hello, world!"; ?></h1>
+            <?php
+// Assign value to variable
+$color = "blue";
+ 
+// Get the type of a variable
+echo gettype($color) . "<br>";
+echo GETTYPE($color) . "<br>";
+?>
         </body>
 
     </html>
