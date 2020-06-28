@@ -18,12 +18,14 @@
             ?>
             <h1><?php echo "Hello, world!"; ?></h1>
             <?php
-// Assign value to variable
-$color = "blue";
+<?php
+// Declaring variables
+$txt = "Hello World php variable!";
+$number = 101;
  
-// Get the type of a variable
-echo gettype($color) . "<br>";
-echo GETTYPE($color) . "<br>";
+// Displaying variables value
+echo $txt;  // Output: Hello World php variable!
+echo $number; // Output: 101
 ?>
         </body>
 
