@@ -15,6 +15,7 @@ $txt = "See you on the other side!";
 $number = 101;
 // Defining constant
 define("SITE_URL", "https://christinasart.herokuapp.com/");
+$my_str = 'Worldstring';
 ?>
             <h1 style="font-family: Arial, Helvetica, sans-serif;">Christina's art</h1>
             <a style="font-family: Arial, Helvetica, sans-serif;" href="/loading.php">Cityscape</a></p>
@@ -26,7 +27,9 @@ define("SITE_URL", "https://christinasart.herokuapp.com/");
 
 // Using constant
 echo "<h4>This is a simple heading.</h4>" . SITE_URL;
- 
+
+
+echo "Hello, $my_str!<br>";      // Displays: Hello Worldstring!
 // Displaying variables value
 echo $txt;  // See you on the other side!
 echo $number; // Output: 101
