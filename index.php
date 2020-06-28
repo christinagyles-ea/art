@@ -23,9 +23,9 @@ define("SITE_URL", "https://christinasart.herokuapp.com/");
  <?php
      // This is art
             # This is also art
-
+            <a href="
 // Using constant
-echo '<a href="' . SITE_URL;">test</a>
+echo 'testing' . SITE_URL;">test</a>
  
 // Displaying variables value
 echo $txt;  // See you on the other side!
